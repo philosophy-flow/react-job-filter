@@ -6,3 +6,10 @@
   margin-left: 5px;
   border-radius: 15px;
 }
+
+
+@media only screen and (max-width: 350px) {
+  .Tag {
+    font-size: .55em;
+  }
+}
