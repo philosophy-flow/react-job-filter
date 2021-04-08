@@ -1,0 +1,118 @@
+.Listing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 1.75em;
+  margin: 1.5em 0;
+
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+.static-info-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-container {
+  height: 5em;
+  width: 5em;
+}
+
+.logo-container img {
+  width: 100%;
+}
+
+
+.job-info {
+  margin-left: 1em;
+}
+
+.top-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  font-size: .9em;
+  color: hsl(180, 38%, 55%);
+  margin-right: .75em;
+}
+
+.title {
+  margin: .66em 0;
+  font-size: 1em;
+}
+
+.additional-info {
+  display: flex;
+  color: hsl(180, 8%, 52%);
+  font-size: .9em;
+}
+
+.additional-info span {
+  margin: 0 .5em;
+}
+
+
+.tablet-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+/* HOVER EFFECTS FOR DESKTOP ONLY */
+@media only screen and (min-width: 500px) {
+  .title:hover {
+    color: hsl(180, 29%, 50%);
+    cursor: pointer;
+  }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .tablet-container {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .tablet-container {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .tablet-container {
+    width: 20%;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 650px) {
+  .Listing {
+    position: relative;
+    padding-top: 2.5em;
+    margin: 3em 0;
+  }
+  .tablet-container {
+    margin-top: 1.25em;
+    padding-top: .6em;
+    width: auto;
+    border-top: 1px solid hsl(180, 8%, 52%);
+  }
+
+  .logo-container {
+    height: 3.25em;
+    width: 3.25em;
+
+    position: absolute;
+    top: -30px;
+
+  }
+}

@@ -1,0 +1,8 @@
+.Tag {
+  font-size: .7em;
+  color: white;
+
+  padding: .333em .5em .2em .5em;
+  margin-left: 5px;
+  border-radius: 15px;
+}

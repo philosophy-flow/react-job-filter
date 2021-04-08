@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: hsl(180, 52%, 96%);
+
+  /* needed for margin at bottom of page */
+  border-bottom: .1px solid hsl(180, 52%, 96%);
+
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  min-height: 100vh;
+}
+
+.banner {
+  height: 13vh;
+
+  background-color: hsl(180, 29%, 50%);
+  background-image: url("../images/bg-header-desktop.svg");
+  background-size: cover;
+}

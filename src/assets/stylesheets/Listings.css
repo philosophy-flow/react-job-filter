@@ -1,0 +1,10 @@
+.Listings {
+  width: 75%;
+  max-width: 1200px;
+
+  margin: 20px auto;
+  margin-top: 0;
+
+  position: relative;
+  top: -5px;
+}

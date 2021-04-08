@@ -1,0 +1,41 @@
+.FilterBar {
+  background-color: #fff;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+
+  padding: 0.5em 1.25em;;
+
+  width: 75%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  position: relative;
+  top: -25px;
+}
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.clear-button {
+  background-color: white;
+  border: none;
+  color: hsl(180, 29%, 55%);
+  outline: none;
+}
+
+
+
+/* HOVER EFFECTS FOR DESKTOP ONLY */
+@media only screen and (min-width: 500px) {
+  .clear-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

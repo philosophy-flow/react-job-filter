@@ -1,0 +1,51 @@
+.FilterTablet {
+  font-size: .90em;
+  margin: .5em;
+  border-radius: 5px;
+  background-color: hsl(180, 31%, 95%);
+  color: hsl(180, 29%, 55%);
+  font-weight: bold;
+
+  display: flex;
+}
+
+.contentBox {
+  padding: .6em;
+
+}
+
+.x-box {
+  background: black;
+  color: white;
+  width: 2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: hsl(180, 29%, 55%);
+}
+
+
+
+/* HOVER EFFECTS FOR DESKTOP ONLY */
+@media only screen and (min-width: 500px) {
+  .FilterTablet:hover {
+    color: #fff;
+    background-color: hsl(180, 29%, 50%);
+    cursor: pointer;
+  }
+
+  .FilterTablet.x-active:hover {
+    color: hsl(180, 29%, 55%);
+    background-color: hsl(180, 31%, 95%);
+    cursor: inherit;
+  }
+
+  .x-box:hover {
+    background-color: #000;
+    cursor: pointer;
+  }
+}
